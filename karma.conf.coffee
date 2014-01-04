@@ -1,12 +1,7 @@
 module.exports = (config) ->
-  browsers = if process.env.TRAVIS
-    ['Firefox']
-  else
-    ['Chrome']
-
   config.set
     frameworks: ['mocha', 'chai', 'browserify']
-    browsers: browsers
+    browsers: if process.env.TRAVIS then ['Firefox'] else ['Chrome']
 
     preprocessors:
       'test/**/*.spec.coffee': ['coffee', 'browserify']
