@@ -8,6 +8,13 @@ describe 'opts-parser', ->
   opts = null
 
   describe '.parse', ->
+    describe 'defaults', ->
+      before -> opts = parser.parse 'foo: bar', 'foo': 'default', 'fiz-biz': 1
+      it 'has foo', -> expect(opts).to.have.property 'foo'
+      it 'is bar', -> expect(opts.foo).to.equal 'bar'
+      it 'has fiz-biz', -> expect(opts).to.contain.keys ['fizBiz', 'fiz-biz']
+      it 'is 1', -> expect(opts.fizBiz).to.equal 1
+
     describe 'words', ->
       before -> opts = parser.parse 'foo: bar'
       it 'has foo', -> expect(opts).to.have.property 'foo'
