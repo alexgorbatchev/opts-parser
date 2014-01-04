@@ -3,7 +3,10 @@
 Parses key/value pairs into hash object.
 
 [![Dependency status](https://david-dm.org/alexgorbatchev/opts-parser.png)](https://david-dm.org/alexgorbatchev/opts-parser)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/opts-parser/dev-status.png)](https://david-dm.org/alexgorbatchev/opts-parser#info=devDependencies)
 [![Build Status](https://travis-ci.org/alexgorbatchev/opts-parser.png)](https://travis-ci.org/alexgorbatchev/opts-parser)
+
+[![NPM](https://nodei.co/npm/opts-parser.png?downloads=true&stars=true)](https://npmjs.org/package/opts-parser)
 
 ## Installation
 
@@ -31,7 +34,6 @@ Understands the following formats:
 ## Testing
 
     npm test
-
 
 ## License
 
