@@ -15,6 +15,7 @@ Parses key/value pairs into hash object.
 ## Usage Example
 
     var opts = require('opts-parser');
+
     opts.parse("hello: value; foo-bar: [12, "monkeys"]; value: 'value'")
 
     {
