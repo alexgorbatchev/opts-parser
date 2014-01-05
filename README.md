@@ -37,4 +37,4 @@ Understands the following formats:
 
 ## License
 
-LGPL & MIT
+GPL & MIT
