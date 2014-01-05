@@ -15,6 +15,11 @@ describe 'opts-parser', ->
       it 'has fiz-biz', -> expect(opts).to.contain.keys ['fizBiz', 'fiz-biz']
       it 'is 1', -> expect(opts.fizBiz).to.equal 1
 
+    describe 'booleans', ->
+      before -> opts = parser.parse 'foo: true; bar: false;'
+      it 'has true foo', -> expect(opts.foo).to.eql true
+      it 'has false bar', -> expect(opts.bar).to.eql false
+
     describe 'words', ->
       before -> opts = parser.parse 'foo: bar'
       it 'has foo', -> expect(opts).to.have.property 'foo'

@@ -26,6 +26,7 @@ Parses key/value pairs into hash object.
 
 Understands the following formats:
 
+- `name: true|false;`
 - `name: word;`
 - `name: [word, word];`
 - `name: "string";`
