@@ -7,17 +7,17 @@
     "options",
     "parser"
   ],
-  "homepage": "https://github.com/alexgorbatchev/opts-parser",
-  "bugs": "https://github.com/alexgorbatchev/opts-parser/issues",
+  "homepage": "https://github.com/syntaxhighlighter/opts-parser",
+  "bugs": "https://github.com/syntaxhighlighter/opts-parser/issues",
   "author": {
     "name": "Alex Gorbatchev",
     "email": "",
-    "url": "https://github.com/alexgorbatchev"
+    "url": "https://github.com/syntaxhighlighter"
   },
   "main": "./lib/parser.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexgorbatchev/opts-parser.git"
+    "url": "https://github.com/syntaxhighlighter/opts-parser.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/grunt test"
