@@ -1,16 +1,12 @@
-# opts-parser
+# syntaxhighlighter/opts-parser
 
 Parses key/value pairs into hash object.
 
-[![Dependency status](https://david-dm.org/syntaxhighlighter/opts-parser.svg)](https://david-dm.org/syntaxhighlighter/opts-parser)
-[![devDependency Status](https://david-dm.org/syntaxhighlighter/opts-parser/dev-status.svg)](https://david-dm.org/syntaxhighlighter/opts-parser#info=devDependencies)
-[![Build Status](https://travis-ci.org/syntaxhighlighter/opts-parser.svg)](https://travis-ci.org/syntaxhighlighter/opts-parser)
-
-[![NPM](https://nodei.co/npm/opts-parser.svg)](https://npmjs.org/package/opts-parser)
+[![Build Status](https://travis-ci.org/alexgorbatchev/opts-parser.svg)](https://travis-ci.org/alexgorbatchev/opts-parser)
 
 ## Installation
 
-    npm install opts-parser
+    npm install syntaxhighlighter/opts-parser
 
 ## Usage Example
 
@@ -39,4 +35,4 @@ Understands the following formats:
 
 ## License
 
-GPL & MIT
+MIT
