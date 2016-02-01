@@ -2,11 +2,11 @@
 
 Parses key/value pairs into hash object. The source format looks like HTML's `style` attribute, see below for more details. This was an old school way of passing random canfiguration values through `class` attribute into SyntaxHighlighter. Why not use `data-*` attributes? Well, back in 2002 those didn't exist... Yes, this could be modernized a bit, at the same time there are hundreds of thousands active usages now. 
 
-[![Build Status](https://travis-ci.org/alexgorbatchev/opts-parser.svg)](https://travis-ci.org/alexgorbatchev/opts-parser)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/opts-parser.svg)](https://travis-ci.org/syntaxhighlighter/opts-parser)
 
 ## Installation
 
-    npm install syntaxhighlighter/opts-parser
+    npm install opts-parser
 
 ## Usage Example
 
