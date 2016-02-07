@@ -10,6 +10,10 @@ Parses key/value pairs into hash object. The source format looks like HTML's `st
 
 This was an old school way of passing random canfiguration values through `class` attribute into SyntaxHighlighter. Why not use `data-*` attributes? Well, back in 2002 those didn't exist... Yes, this could be modernized a bit, at the same time there are hundreds of thousands active usages now. 
 
+## Important
+
+This module depends on a verion of [XRegExp](https://github.com/slevithan/xregexp) that is bundled in [syntaxhighlighter-regex](https://github.com/syntaxhighlighter/syntaxhighlighter-regex). At the time of writing, the bundled version `3.1.0-dev` is unreleased.
+
 ## Installation
 
 ```
