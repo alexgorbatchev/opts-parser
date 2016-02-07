@@ -1,4 +1,4 @@
-var XRegExp = require('xregexp');
+var XRegExp = require('syntaxhighlighter-regex').XRegExp;
 
 var BOOLEANS = {'true': true, 'false': false};
 
