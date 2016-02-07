@@ -1,9 +1,8 @@
-const chai = require('chai');
-const parser = require('./opts-parser');
-const expect = chai.expect;
+import { expect } from 'chai';
+import parser from './opts-parser';
 
 describe('opts-parser', function() {
-  var opts = null;
+  let opts = null;
 
   describe('.defaults', function() {
     before(function() {
